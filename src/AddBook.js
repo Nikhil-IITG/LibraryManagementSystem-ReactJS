@@ -45,8 +45,8 @@ const AddBook = () => {
                 value={author}
                 onChange={(e)=>setAuthor(e.target.value)}
                 />
-                {!isPending && <button>Add Blog</button>}
-                {isPending && <button disabled>Adding blog...</button>}
+                {!isPending && <button>Add Book</button>}
+                {isPending && <button disabled>Adding book...</button>}
             </form>
         </div>
     );
